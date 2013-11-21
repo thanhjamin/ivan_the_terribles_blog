@@ -7,6 +7,7 @@ source 'https://rubygems.org'
 
   gem 'pg'
   gem 'rack-mini-profiler'
+  gem 'heroku_rails_deflate', :group => :production
 
 # Gems used only for assets and not required
 # in production environments by default.
